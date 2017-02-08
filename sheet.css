@@ -4,8 +4,14 @@
       color: #f5f6f7;
       text-shadow:
     px px #000;
-     
+     }
+
+      .main-header{
+          color: white;
       }
+ 
+
+
       h2 {
           color: black;
       }
@@ -13,12 +19,24 @@
           color: black;
       }
       h3{
-          font-size: 1.5em;
-          color: aliceblue;
+        font-size: 1.5em;
+        color: aliceblue;
       }
-  .p {font-size: 16px;
+     p 
+      {
+          font-size: 18px;
       }
-  .margin {margin-bottom: 45px;}
+  .info {
+      font-size: 16px;
+      }
+  .margin
+      {
+       margin-bottom: 45px;
+     }    
+      .quotation {
+      padding: 30px 40px;
+     }
+
   .bg-1 { 
     
       background-image: url("Images/andy_speaking.jpg");
@@ -29,7 +47,7 @@
       opacity: ;
   
           
-     /* Black */
+     /* Background */
   
   }
   .bg-2 { 
@@ -51,10 +69,8 @@
   .navbar {
       padding-top: 15px;
       padding-bottom: 15px;
-      border: 0;
-      border-radius: 0;
       margin-bottom: 0;
-      font-size: 12px;
+      font-size: 14px;
       letter-spacing: 5px;
   }
   .navbar-nav  li a:hover {
@@ -62,26 +78,32 @@
   }
       
     .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
+    .carousel-inner > .item > a > img {
       width: 70%;
       margin: auto;
   }  
       .panel-body {
-          
-          color:black;
-      }
-      .course-header{
-          color: antiquewhite
-      }
-      strong {
           color: black;
       }
-      #logo {
-          position: relative;
-          left: -850px;
-          top: -240px;
-          }
-      .main-header{
-          color: white;
+   .panel-body strong {
+        color: black;
+        font-size: 20px;
+   }
+      .course-header {
+          color: antiquewhite
       }
- 
+    .social-media {
+     font-size: 28px;
+
+      }
+    
+   .panel-header {
+    
+        }
+     
+    #logo {
+    position: relative;
+    left: -850px;
+    top: -240px;
+          }
+     
