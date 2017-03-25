@@ -6,66 +6,9 @@
     px px #000;
      }
 
-      .main-header{
-          color: white;
-      }
- 
+/* Navar */
 
-
-      h2 {
-          color: black;
-      }
-      h3,h4 {
-          color: black;
-      }
-      h3{
-        font-size: 1.5em;
-        color: black;
-      }
-     p 
-      {
-          font-size: 18px;
-      }
-      p .intro {
-        color: white;
-     }
-  .info {
-      font-size: 16px;
-      }
-  .margin
-      {
-       margin-bottom: 45px;
-     }    
-      .quotation {
-      padding: 30px 40px;
-     }
-
-  .bg-1 { 
-    
-      background-image: url("Images/andy_speaking.jpg");
-      background-size: 100%;
-      margin: auto;
-      background-repeat: no-repeat;
-      text-align: center;
-      opacity: ;
-  
-          
-     /* Background */
-  
-  }
-  .bg-2 { 
-      background-color: #474e5d; /* Dark Blue */
-      color: #ffffff;
-  }
-  .bg-3 { 
-      background-color: #ffffff; /* White */
-      color: #555555;
-  }
-  .bg-4 { 
-      background-color: #2f2f2f; /* Black Gray */
-      color: #fff;
-  }
-  .container-fluid {
+.container-fluid {
       padding-top: 70px;
       padding-bottom: 70px;
   }
@@ -79,12 +22,70 @@
   .navbar-nav  li a:hover {
       color: #1abc9c !important;
   }
-      
+
+   .main-header{
+          color: white;
+      }
+
+
+
+      h2 {
+          color: black;
+      }
+      h4 {
+          color: black;
+      }
+      h3{
+        font-size: 1.5em;
+        color: black;
+      }
+      p {
+          font-size: 18px;
+      }
+      .intro {
+        color: white;
+     }
+  .info {
+      font-size: 16px;
+      }
+  .margin{
+       margin-bottom: 45px;
+     }
+      .quotation {
+      padding: 30px 40px;
+     }
+
+    /* Background */
+
+  .bg-1 {
+
+      background-image: url("Images/andy_speaking.jpg");
+      background-size: 100%;
+      margin: auto;
+      background-repeat: no-repeat;
+      text-align: center;
+      opacity: ;
+  }
+  .bg-2 {
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 {
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+     /* End of background */
+
+
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
       width: 70%;
       margin: auto;
-  }  
+  }
       .panel-body {
           color: black;
       }
@@ -97,16 +98,13 @@
       }
     .social-media {
      font-size: 28px;
+     }
 
-      }
-    
    .panel-header {
-    
-        }
-     
+    }
+
     #logo {
     position: relative;
     left: -850px;
     top: -240px;
           }
-     
